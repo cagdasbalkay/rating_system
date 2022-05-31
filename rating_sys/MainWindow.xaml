@@ -1,0 +1,43 @@
+﻿<Window x:Class="film_rating.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:film_rating"
+        mc:Ignorable="d"
+        Title="Rate Your Movie" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid Margin="0,0,-6.4,-4" Background="AliceBlue" >
+        <Label Content="Movie Name " HorizontalAlignment="Left" Margin="10,58,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Segoe UI Semibold"/>
+        <TextBox x:Name="tbxName" Text="" HorizontalAlignment="Left" Height="23" Margin="181,65,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Label Content=" Movie Genre" HorizontalAlignment="Left" Margin="10,124,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Segoe UI Semibold"/>
+        <ComboBox x:Name="cbxGenre" HorizontalAlignment="Left" Margin="181,127,0,0" VerticalAlignment="Top" Width="120" Height="25">
+            <ComboBoxItem Content="Horror"/>
+            <ComboBoxItem Content="Action"/>
+            <ComboBoxItem Content="Comedy"/>
+            <ComboBoxItem Content="Drama"/>
+            <ComboBoxItem Content="Fantasy"/>
+            <ComboBoxItem Content="Thriller"/>
+            <ComboBoxItem Content="Sci-Fi" />
+        </ComboBox>
+        <Label Content="Release Date" HorizontalAlignment="Left" Margin="10,197,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Segoe UI Semibold"/>
+        <Label Content=" Movie Rating" HorizontalAlignment="Left" Margin="10,275,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="Segoe UI Semibold"/>
+        <ComboBox x:Name="cbxRating" HorizontalAlignment="Left" Margin="181,280,0,0" VerticalAlignment="Top" Width="120" Height="28">
+            <ComboBoxItem Content="0"/>
+            <ComboBoxItem Content="1"/>
+            <ComboBoxItem Content="2"/>
+            <ComboBoxItem Content="3"/>
+            <ComboBoxItem Content="4"/>
+            <ComboBoxItem Content="5"/>
+
+        </ComboBox>
+        <TextBlock Margin="2,10,2,2" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Movie Rating System" VerticalAlignment="Top" FontSize="24" FontFamily="Segoe UI Semibold"/>
+        <ListBox FontSize="14" x:Name="lbxMovie" HorizontalAlignment="Left" Height="250" Margin="342,60,0,0" VerticalAlignment="Top" Width="400"/>
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="40,356,0,0" VerticalAlignment="Top" Width="100" Height="50" Background="#FF48C510" Foreground="White" RenderTransformOrigin="0.901,0.005" Click="btnAdd_Click" FontWeight="Bold" FontSize="20" />
+        <Button x:Name="btnClear" Click="btnClear_Click"  Content="Clear" HorizontalAlignment="Left" Margin="430,356,0,0" VerticalAlignment="Top" Width="100" Height="50" RenderTransformOrigin="0.747,-0.283" Background="#FF108BB9" Foreground="#FFFAFAFA" FontWeight="Bold" FontSize="20"/>
+        <Button x:Name="btnRemove" Click="btnRemove_Click" Content="Remove" HorizontalAlignment="Left" Margin="640,356,0,0" VerticalAlignment="Top" Width="100" Height="50" Background="#FFD42626" Foreground="White" RenderTransformOrigin="1.075,0.461" FontWeight="Bold" FontSize="20"/>
+        <DatePicker x:Name="datePickerMovie" HorizontalAlignment="Left" Margin="181,203,0,0" VerticalAlignment="Top" Width="120" Height="25"/>
+        <Button Content="Update" Name="btnUpdate" Click="btnUpdate_Click" HorizontalAlignment="Left" Margin="228,355,0,0" VerticalAlignment="Top" Width="100" Height="50" Background="#FFE86916" Foreground="#FFF7F7F7" FontSize="20" FontWeight="Bold"/>
+
+
+    </Grid>
+</Window>

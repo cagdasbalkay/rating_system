@@ -1,0 +1,17 @@
+C:\Users\cagda\source\repos\WPF\film_rating\obj\Debug\film_rating.csproj.AssemblyReference.cache
+C:\Users\cagda\source\repos\WPF\film_rating\obj\Debug\MainWindow.g.cs
+C:\Users\cagda\source\repos\WPF\film_rating\obj\Debug\App.g.cs
+C:\Users\cagda\source\repos\WPF\film_rating\obj\Debug\film_rating_MarkupCompile.cache
+C:\Users\cagda\source\repos\WPF\film_rating\obj\Debug\film_rating_MarkupCompile.lref
+C:\Users\cagda\source\repos\WPF\film_rating\bin\Debug\film_rating.exe.config
+C:\Users\cagda\source\repos\WPF\film_rating\bin\Debug\film_rating.exe
+C:\Users\cagda\source\repos\WPF\film_rating\bin\Debug\film_rating.pdb
+C:\Users\cagda\source\repos\WPF\film_rating\obj\Debug\MainWindow.baml
+C:\Users\cagda\source\repos\WPF\film_rating\obj\Debug\film_rating.g.resources
+C:\Users\cagda\source\repos\WPF\film_rating\obj\Debug\film_rating.Properties.Resources.resources
+C:\Users\cagda\source\repos\WPF\film_rating\obj\Debug\film_rating.csproj.GenerateResource.cache
+C:\Users\cagda\source\repos\WPF\film_rating\obj\Debug\film_rating.csproj.CoreCompileInputs.cache
+C:\Users\cagda\source\repos\WPF\film_rating\obj\Debug\film_rating.exe
+C:\Users\cagda\source\repos\WPF\film_rating\obj\Debug\film_rating.pdb
+C:\Users\cagda\source\repos\WPF\film_rating\obj\Debug\Guncelle.g.cs
+C:\Users\cagda\source\repos\WPF\film_rating\obj\Debug\Guncelle.baml
